@@ -1,0 +1,24 @@
+{
+  "name": "node-web-scraper",
+  "version": "1.0.0",
+  "description": "Node.js built command line program that can parse remote pages, read the html, and write the content that we care about to a file on disk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grrilla/node-web-scraper.git"
+  },
+  "author": "michael longauer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/grrilla/node-web-scraper/issues"
+  },
+  "homepage": "https://github.com/grrilla/node-web-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "csv-write-stream": "^2.0.0",
+    "request": "^2.74.0"
+  }
+}
